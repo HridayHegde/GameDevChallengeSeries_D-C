@@ -15,13 +15,14 @@ public class Rotate_OnAxis : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.Rotate(Vector3.up * Time.deltaTime * Speed,Space.World);//Challenge 1 Code
+        transform.Rotate(Vector3.up * Time.deltaTime * Speed,Space.World);//Challenge 1 Code
 
         
-        Vector3 pos = transform.position;
+        /*Vector3 pos = transform.position;
         
         float newY = Mathf.Sin(Time.time * UpDSpeed);
     
-        transform.position = new Vector3(pos.x, newY + 3.5f, pos.z) * height;
+        transform.position = new Vector3(pos.x, newY + 3.5f, pos.z) * height;*/
+
     }
 }
